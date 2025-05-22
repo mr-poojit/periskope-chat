@@ -1,10 +1,3 @@
-interface MessageBubbleProps {
-  readonly message: {
-    content: string;
-  };
-  readonly isOwn: boolean;
-}
-
 export default function MessageBubble({
   message,
   isOwn,
